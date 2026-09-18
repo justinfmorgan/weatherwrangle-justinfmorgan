@@ -10,10 +10,12 @@ names across distinct city_ids — always key on city_id.
 
 ## Q1. How many city records are in the file?
 **22,635.** One JSON object per line, each with a distinct city.id.
-(22,005 if counted by name+country — wrong, name collisions.)
+(22,005 if counted by name+country — wrong, name collisions.) Lat/lon cross-check (REEXAMINATION.md §1):
+only 2 exact-coordinate pairs and ~10-30 plausible physical duplicates; the 468 namesake groups are real distinct places.
 
 ## Q2. How many unique countries?
-**243** (ISO-3166 alpha-2, all well-formed).
+**243** (ISO-3166 alpha-2, all well-formed). 242 are ISO-official; XK (Kosovo, 17 cities) is the standard
+user-assigned code. No legacy codes. No city is geographically implausible for its code (REEXAMINATION.md §1).
 
 ## Q3. Top 10 countries by city count
 | Rank | Country | Cities |
@@ -29,33 +31,42 @@ names across distinct city_ids — always key on city_id.
 | 9 | IT | 670 |
 | 10 | FR | 610 |
 
+Robust to near-duplicate dedup at 0.5/1/2 km (membership unchanged). GB vs IT (672 vs 670) is a near-tie.
+
 ## Q4. Exploded (city, country, date) row count
 **368,909.** 15,886 cities x 16 days + 6,749 cities x 17 days. All rows unique on (city_id, country, date).
 Not 316,890 (22,635 x 14) — the horizon is 16-17 days despite the filename.
 
 ## Q5. Top 10 hottest cities by mean temp.day (°C)
 
-Two versions. **Recommended: filtered** (stub rows excluded) — the stub day is a daily-mean stand-in that
-biases every city's mean down by a city-specific amount and reshuffles the ranking. Literal version kept
-for reproducibility. See analysis/q5_literal_vs_filtered.png and COMPARISON.md. Awaiting owner sign-off.
+**Final (locked in):** stub rows excluded. The stub day (all six temps identical, at the forecast edge for
+16,960 cities) is a daily-mean stand-in that runs ~5.9 °C cooler than the city's real days and biases
+each city's mean by a city-specific amount, reshuffling ranks 2-10. See q5_literal_vs_filtered.png.
 
-| Rank | Filtered (recommended) | Mean °C | Literal (all rows) | Mean °C |
+| Rank | City | Country | city_id | Mean temp.day °C |
 |---|---|---|---|---|
-| 1 | Dourbali, TD | 39.81 | Dourbali, TD | 39.08 |
-| 2 | Ayorou, NE | 39.41 | Maiduguri, NG | 38.75 |
-| 3 | Damaturu, NG | 39.36 | Magumeri, NG | 38.75 |
-| 4 | Maiduguri, NG | 39.35 | Damaturu, NG | 38.74 |
-| 5 | Magumeri, NG | 39.35 | Massakory, TD | 38.69 |
-| 6 | Niamey, NE | 39.25 | Ayorou, NE | 38.68 |
-| 7 | Massakory, TD | 39.25 | Potiskum, NG | 38.62 |
-| 8 | Geidam, NG | 39.22 | Daura, NG | 38.62 |
-| 9 | Potiskum, NG | 39.20 | Bogo, CM | 38.59 |
-| 10 | Daura, NG | 39.20 | Geidam, NG | 38.58 |
+| 1 | Dourbali | TD | 2433055 | 39.81 |
+| 2 | Ayorou | NE | 2447416 | 39.41 |
+| 3 | Damaturu | NG | 2345521 | 39.36 |
+| 4 | Maiduguri | NG | 2331447 | 39.35 |
+| 5 | Magumeri | NG | 2331528 | 39.35 |
+| 6 | Niamey | NE | 2440485 | 39.25 |
+| 7 | Massakory | TD | 2428228 | 39.25 |
+| 8 | Geidam | NG | 2341294 | 39.22 |
+| 9 | Potiskum | NG | 2324767 | 39.20 |
+| 10 | Daura | NG | 2345096 | 39.20 |
 
-Ties (Maiduguri/Magumeri, Potiskum/Daura) are exact — same model grid cell — so within-tie order is arbitrary.
+Ties (Maiduguri/Magumeri, Potiskum/Daura) are exact — same model grid cell — within-tie order is arbitrary.
+Sensitivity: temp.max gives 9/10 overlap; restricting to the first 4-7 days gives 0-2/10 — the ranking is a
+16-day-mean ranking and the Sahel heat maximum moves during the window (REEXAMINATION.md §3-4).
+
+Footnote — literal mean over all rows (reproduces the artifact): Dourbali 39.08, Maiduguri 38.75,
+Magumeri 38.75, Damaturu 38.74, Massakory 38.69, Ayorou 38.68, Potiskum 38.62, Daura 38.62, Bogo (CM) 38.59,
+Geidam 38.58. Independently reproduced by a blind agent (COMPARISON.md).
 
 ## Q6. San Francisco, CA tidy table
 city_id 5391959 (37.77, -122.42). 16 days. Temps in °C; humidity nulled where source had 0 (missing-value artifact).
+Date convention: UTC calendar date of `dt` (locked in). SF's dt values fall at 18:00-20:00 UTC so UTC date == local date.
 See analysis/q6_san_francisco.csv.
 
 | date | temp_min | temp_max | humidity | weather_description |

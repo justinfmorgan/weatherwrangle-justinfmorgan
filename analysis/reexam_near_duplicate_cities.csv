@@ -1,0 +1,394 @@
+id_a,name_a,ctry_a,id_b,name_b,ctry_b,km,same_forecast
+1850144,Tōkyō-to,JP,1850147,Tokyo,JP,0.0,True
+1278343,Arumuganeri,IN,1267361,Kayalpattinam,IN,0.0,True
+3175453,Ischia Porto,IT,3175458,Ischia,IT,0.26,True
+2739848,Esposende,PT,2739849,Esposende,PT,0.33,True
+1253133,Virar,IN,1253372,Vasai,IN,0.37,True
+2782067,Baden,AT,8015353,Baden,AT,0.38,True
+10722858,Svetlogorsk,BY,621074,Svyetlahorsk,BY,0.38,True
+1783988,Zhucheng,CN,7602670,Zhu Cheng City,CN,0.46,True
+8050888,Primer Ensanche,ES,3114472,Pamplona,ES,0.52,True
+2660306,Zuerich (Kreis 10) / Hoengg,CH,6295539,Zuerich (Kreis 10),CH,0.57,False
+6295504,Zuerich (Kreis 6) / Unterstrass,CH,6295550,Zuerich (Kreis 6),CH,0.6,True
+3176059,Giugliano in Campania,IT,3164153,Villaricca,IT,0.65,True
+1117652,Ban Talat Yai,TH,1151254,Phuket,TH,0.68,True
+7284825,Budapest IX. keruelet,HU,7284826,Budapest VIII. keruelet,HU,0.76,True
+563705,Dzerzhinskiy,RU,543731,Kotelniki,RU,0.78,True
+3030960,Bourgoin,FR,6615539,Bourgoin-Jallieu,FR,0.82,True
+3110921,Sant Adria de Besos,ES,6943537,Llefia,ES,0.82,True
+2661666,Aussersihl,CH,6295498,Zuerich (Kreis 3) / Sihlfeld,CH,0.83,True
+3130380,Algorta,ES,3121007,Getxo,ES,0.86,True
+2639996,Portsmouth,GB,2637330,Southsea,GB,0.86,True
+4845056,Wallingford,US,7257422,Wallingford Center,US,0.87,True
+6295513,Zuerich (Kreis 9) / Altstetten,CH,6295534,Zuerich (Kreis 9),CH,0.88,True
+2982757,Rosny-sous-Bois,FR,2990616,Neuilly-Plaisance,FR,0.9,False
+2647644,Hale,GB,2649660,Farnham,GB,0.91,True
+673441,Miercurea-Ciuc,RO,6942372,Miercurea Ciuc,RO,0.94,True
+2112963,Edosaki,JP,6822108,Inashiki,JP,0.94,True
+2913922,Guben,DE,3098130,Gubin,PL,0.95,True
+685826,Baia Mare,RO,6697993,Baia Mare,RO,0.96,True
+8125829,Kamigyo-ku,JP,1857910,Kyoto,JP,0.98,True
+829005,Lesnoy,RU,520204,Nizhnyaya Tura,RU,0.99,True
+5128723,Niagara Falls,US,6087892,Niagara Falls,CA,1.0,True
+2975446,Schiltigheim,FR,3032551,Bischheim,FR,1.01,True
+5744253,Oregon City,US,5760009,West Linn,US,1.02,True
+3017924,Fontenay-aux-Roses,FR,3026083,Chatillon,FR,1.02,True
+3126534,Canovelles,ES,3121145,Granollers,ES,1.03,True
+2511994,Realejo Alto,ES,6692471,Los Realejos,ES,1.03,True
+5327298,Bell,US,5371261,Maywood,US,1.03,True
+3470709,Barra do Garcas,BR,3471840,Aragarcas,BR,1.04,True
+8050888,Primer Ensanche,ES,8050879,Iturrama,ES,1.04,True
+3621819,San Juan,CR,3624174,Colima,CR,1.05,True
+2990265,Nogent-sur-Marne,FR,3012313,Joinville-le-Pont,FR,1.09,True
+2990189,Noisy-le-Grand,FR,2990612,Neuilly-sur-Marne,FR,1.09,True
+4896075,Hoffman Estates,US,4910713,Schaumburg,US,1.09,True
+2980097,Saint-Fons,FR,2970072,Venissieux,FR,1.1,True
+2911285,Wandsbek,DE,2911287,Marienthal,DE,1.1,True
+3061370,Zlin,CZ,3061369,Zlin,CZ,1.11,True
+3748726,Kingstown Park,VC,3577887,Kingstown,VC,1.11,True
+2992017,Montrouge,FR,2996514,Malakoff,FR,1.11,True
+2522297,Alaquas,ES,2522077,Aldaia,ES,1.12,True
+3175755,Grugliasco,IT,3178388,Collegno,IT,1.13,True
+2264359,Povoa de Santa Iria,PT,2261697,Vialonga,PT,1.15,True
+2113126,Akita,JP,2113719,Akita Shi,JP,1.15,True
+3017924,Fontenay-aux-Roses,FR,3035409,Bagneux,FR,1.15,True
+4885342,Bourbonnais,US,4885418,Bradley,US,1.16,True
+734301,Sykies,GR,734077,Thessaloniki,GR,1.17,True
+2422488,Camayenne,GN,2422465,Conakry,GN,1.2,True
+5102162,Old Bridge,US,5104835,South Old Bridge,US,1.2,True
+3445746,Uniao da Vitoria,BR,3452623,Porto Uniao,BR,1.2,True
+6295512,Zuerich (Kreis 9) / Albisrieden,CH,6295534,Zuerich (Kreis 9),CH,1.21,True
+1259229,Pune,IN,6943660,Shivaji Nagar,IN,1.21,True
+2983026,Romainville,FR,3000491,Les Lilas,FR,1.21,True
+3861416,Chimbas,AR,3832653,Villa Paula de Sarmiento,AR,1.21,True
+5105634,Union City,US,5106292,West New York,US,1.22,True
+1689056,San Mateo,PH,1703116,Malanday,PH,1.23,True
+2519466,Xirivella,ES,2513811,Mislata,ES,1.23,True
+293788,Ramat Gan,IL,294999,Givatayim,IL,1.23,True
+2790676,Mortsel,BE,2799007,Edegem,BE,1.23,True
+2270184,Carcavelos,PT,2263352,Sao Domingos de Rana,PT,1.23,True
+2791343,Menen,BE,3014034,Halluin,FR,1.24,False
+5399629,Suisun,US,5347335,Fairfield,US,1.24,True
+2636619,Strood,GB,2639268,Rochester,GB,1.24,False
+3456370,Navegantes,BR,3460845,Itajai,BR,1.25,True
+1224085,Wattala,LK,1230613,Peliyagoda,LK,1.25,True
+2998056,Livry-Gargan,FR,3024596,Clichy-sous-Bois,FR,1.26,True
+2992404,Montigny-les-Cormeilles,FR,3023645,Cormeilles-en-Parisis,FR,1.26,True
+3109481,Santurtzi,ES,3113082,Portugalete,ES,1.26,True
+5116060,East Setauket,US,7258965,Setauket-East Setauket,US,1.26,True
+7284826,Budapest VIII. keruelet,HU,7284827,Budapest VII. keruelet,HU,1.26,False
+4958141,Biddeford,US,4977222,Saco,US,1.26,False
+4933002,Chicopee,US,4945588,North Chicopee,US,1.27,True
+2968555,Villeneuve-la-Garenne,FR,3016321,Gennevilliers,FR,1.27,True
+5016450,Anoka,US,5020859,Champlin,US,1.27,True
+6618856,Santutxu,ES,3128026,Bilbao,ES,1.27,True
+2644386,Litherland,GB,2655198,Bootle,GB,1.28,True
+2885679,Konstanz,DE,2660108,Kreuzlingen,CH,1.28,True
+3022700,Cran-Gevrier,FR,3037543,Annecy,FR,1.29,True
+2264087,Ramada,PT,2265467,Odivelas,PT,1.3,True
+3026083,Chatillon,FR,3035409,Bagneux,FR,1.3,True
+5781070,Sandy Hills,US,5781061,Sandy City,US,1.3,True
+4354256,Elkridge,US,4373104,West Elkridge,US,1.31,True
+2659296,Onex,CH,6691640,Lancy,CH,1.32,True
+2673730,Stockholm,SE,2685828,OEstermalm,SE,1.33,True
+4956976,Auburn,US,4969398,Lewiston,US,1.34,True
+2659099,Rapperswil,CH,2660221,Jona,CH,1.34,True
+3515679,Tianguistenco,MX,3531598,Capulhuac,MX,1.35,True
+2968368,Villers-les-Nancy,FR,3005417,Laxou,FR,1.36,True
+2737824,Matosinhos,PT,2738348,Leca da Palmeira,PT,1.36,True
+3002965,Le Perreux-sur-Marne,FR,3017910,Fontenay-sous-Bois,FR,1.36,False
+1253102,Vishakhapatnam,IN,7302833,Gajuwaka,IN,1.36,True
+4786714,South Suffolk,US,4788158,Suffolk,US,1.37,True
+3000060,Les Pavillons-sous-Bois,FR,3031815,Bondy,FR,1.37,False
+2968546,Villeneuve-le-Roi,FR,2989297,Orly,FR,1.37,True
+2656168,Batley,GB,2651286,Dewsbury,GB,1.38,True
+3114957,Oria,ES,3119027,Lasarte,ES,1.39,True
+2828994,Steilshoop,DE,7932342,Barmbek-Nord,DE,1.39,True
+665024,Targoviste,RO,6697994,Targoviste,RO,1.4,True
+4288809,Covington,US,4302529,Newport,US,1.4,False
+293844,Qiryat Bialik,IL,293831,Qiryat Motzkin,IL,1.4,True
+3003737,Le Kremlin-Bicetre,FR,3016292,Gentilly,FR,1.41,True
+2655882,Bentley,GB,2651123,Doncaster,GB,1.41,True
+3109546,Sant Just Desvern,ES,3122826,Esplugues de Llobregat,ES,1.41,True
+2967438,Wasquehal,FR,3022376,Croix,FR,1.41,True
+2759113,Bergschenhoek,NL,6929992,Berkel en Rodenrijs,NL,1.41,True
+6615440,Delicias,ES,6615442,Almozara,ES,1.42,True
+2990187,Noisy-le-Sec,FR,3032179,Bobigny,FR,1.42,True
+3178087,Cormano,IT,3181548,Bresso,IT,1.43,True
+2639728,Radcliffe,GB,6691227,Radcliffe,GB,1.43,True
+2521105,Benetusser,ES,2522057,Alfafar,ES,1.43,True
+281109,An Nusayrat,PS,281161,Al Burayj,PS,1.43,True
+2522250,Albal,ES,2519690,Catarroja,ES,1.43,True
+3590389,San Benito,GT,3595725,Flores,GT,1.44,True
+3570166,Petite Riviere Salee,MQ,3570446,La Trinite,MQ,1.44,True
+4146429,Aventura,US,4166805,Ojus,US,1.45,True
+5095611,Bergenfield,US,5097357,Dumont,US,1.45,True
+2267067,Linda-a-Velha,PT,2270157,Carnaxide,PT,1.45,True
+2968176,Villiers-le-Bel,FR,2976043,Sarcelles,FR,1.46,True
+256614,Nea Ionia,GR,256621,Nea Filadelfeia,GR,1.46,True
+1850693,Tanashi,JP,1850692,Nishi-Tokyo-shi,JP,1.46,True
+261414,Kallithea,GR,256575,Nea Smyrni,GR,1.46,True
+2998632,LHay-les-Roses,FR,3029276,Cachan,FR,1.46,True
+5334519,Carson,US,5407908,West Carson,US,1.46,True
+2657402,Altrincham,GB,6640028,Hale,GB,1.46,True
+2761669,Weinzierl bei Krems,AT,2773549,Krems an der Donau,AT,1.46,True
+2982757,Rosny-sous-Bois,FR,2968653,Villemomble,FR,1.46,False
+4756955,East Hampton,US,4762894,Hampton,US,1.47,True
+2972049,Trappes,FR,2992415,Montigny-le-Bretonneux,FR,1.47,True
+2755251,Groningen,NL,2752420,Korrewegwijk,NL,1.47,True
+2641673,Newcastle upon Tyne,GB,2648773,Gateshead,GB,1.47,True
+2996148,Mantes-la-Jolie,FR,2996146,Mantes-la-Ville,FR,1.48,True
+2112312,Katsuta,JP,6822096,Hitachi-Naka,JP,1.48,True
+4931972,Cambridge,US,4951257,Somerville,US,1.48,True
+2659310,Zuerich (Kreis 11) / Oerlikon,CH,6295504,Zuerich (Kreis 6) / Unterstrass,CH,1.49,True
+2264736,Piedade,PT,2271961,Almada,PT,1.5,True
+3000491,Les Lilas,FR,3035403,Bagnolet,FR,1.5,True
+3013097,Houilles,FR,3032824,Bezons,FR,1.5,True
+3018074,Fontainebleau,FR,3035654,Avon,FR,1.51,True
+2973675,Suresnes,FR,2985034,Puteaux,FR,1.51,True
+2918987,Gorlitz,DE,3080231,Zgorzelec,PL,1.52,True
+2650396,Eastleigh,GB,2655557,Bishopstoke,GB,1.52,True
+3128760,Barcelona,ES,6544106,Ciutat Vella,ES,1.52,True
+2635269,Tynemouth,GB,2641267,North Shields,GB,1.52,True
+281109,An Nusayrat,PS,6967990,Az Zuwaydah,PS,1.52,True
+3111605,Ripollet,ES,3109402,Cerdanyola del Valles,ES,1.52,True
+285778,Al Manqaf,KW,285811,Al Fahahil,KW,1.53,True
+2990192,Noisiel,FR,2997904,Lognes,FR,1.53,True
+2169956,Cronulla,AU,2172311,Caringbah,AU,1.54,True
+8050879,Iturrama,ES,3114472,Pamplona,ES,1.54,True
+2996568,Maisons-Alfort,FR,3038213,Alfortville,FR,1.54,True
+5101873,North Arlington,US,5095549,Belleville,US,1.54,True
+4833505,East Norwalk,US,4839822,Norwalk,US,1.55,True
+418723,Kelishad,IR,418851,Mollavarjan,IR,1.55,True
+2983440,Ris-Orangis,FR,3014646,Grigny,FR,1.55,True
+5221341,Central Falls,US,5223869,Pawtucket,US,1.55,True
+5099289,Hopatcong,US,5099292,Hopatcong Hills,US,1.56,True
+2658656,Zuerich (Kreis 11) / Seebach,CH,2659310,Zuerich (Kreis 11) / Oerlikon,CH,1.56,True
+1238992,Sri Jayewardenepura Kotte,LK,1230089,Pita Kotte,LK,1.56,True
+2990616,Neuilly-Plaisance,FR,3002965,Le Perreux-sur-Marne,FR,1.56,True
+1623080,Tulungagung,ID,1640585,Kedungwaru,ID,1.56,True
+2981041,Saint-Cloud,FR,3016675,Garches,FR,1.56,True
+284324,Bayt Jala,PS,284315,Bethlehem,PS,1.56,False
+2657896,Zurich,CH,6295542,Zuerich (Kreis 8),CH,1.56,True
+2820256,Ulm,DE,2863941,Neu-Ulm,DE,1.57,True
+2968555,Villeneuve-la-Garenne,FR,3020020,Epinay-sur-Seine,FR,1.57,True
+5095325,Avenel,US,5096798,Colonia,US,1.57,True
+2977952,Saint-Michel-sur-Orge,FR,2980558,Sainte-Genevieve-des-Bois,FR,1.58,True
+1258126,Rishra,IN,1266179,Konnagar,IN,1.58,True
+3182851,Ariccia,IT,3183356,Albano Laziale,IT,1.58,True
+2510394,Tomares,ES,2519738,Castilleja de la Cuesta,ES,1.58,True
+3009824,La Courneuve,FR,3036386,Aubervilliers,FR,1.58,True
+4853423,Davenport,US,4907907,Rock Island,US,1.58,True
+2758012,Capelle aan den IJssel,NL,2758007,Capelle-West,NL,1.58,True
+3128824,Baranain,ES,8050879,Iturrama,ES,1.59,True
+3002650,Le Plessis-Robinson,FR,3024783,Clamart,FR,1.59,True
+5146277,Avon,US,5146282,Avon Center,US,1.59,True
+3623486,Heredia,CR,3621911,San Francisco,CR,1.59,True
+2112319,Katori-shi,JP,2111173,Sawara,JP,1.6,False
+268743,Ras Bayrut,LB,276781,Beirut,LB,1.6,True
+3489297,New Kingston,JM,3489854,Kingston,JM,1.6,True
+3470776,Barra Bonita,BR,3461501,Igaracu do Tiete,BR,1.61,False
+6295498,Zuerich (Kreis 3) / Sihlfeld,CH,6295512,Zuerich (Kreis 9) / Albisrieden,CH,1.62,False
+2994144,Meudon,FR,2974678,Sevres,FR,1.63,True
+4593724,Saint Andrews,US,4595374,Seven Oaks,US,1.63,True
+255377,Petroupolis,GR,256601,Ilion,GR,1.63,True
+1224085,Wattala,LK,1244397,Hendala,LK,1.63,True
+3622881,Mercedes,CR,3621911,San Francisco,CR,1.63,True
+2969109,Vigneux-sur-Seine,FR,3036460,Athis-Mons,FR,1.64,True
+4160711,Kendall,US,4168590,Pinecrest,US,1.64,True
+4082866,Phenix City,US,4188985,Columbus,US,1.65,True
+281124,Khan Yunis,PS,281148,Bani Suhayla,PS,1.66,True
+2651621,Dagenham,GB,6690871,Dagenham,GB,1.66,True
+2655198,Bootle,GB,3209584,Crosby,GB,1.66,True
+3109041,Sestao,ES,3113082,Portugalete,ES,1.66,True
+2659601,Montreux,CH,2659977,Le Chatelard,CH,1.66,True
+2990611,Neuilly-sur-Seine,FR,3023141,Courbevoie,FR,1.66,True
+2247813,Ndibene Dahra,SN,2253277,Dara,SN,1.67,True
+2979783,Saint-Germain-en-Laye,FR,3002984,Le Pecq,FR,1.67,True
+3682028,Girardot,CO,3682458,Flandes,CO,1.67,True
+3012649,Issy-les-Moulineaux,FR,2996514,Malakoff,FR,1.67,True
+4363836,North Bel Air,US,4369928,South Bel Air,US,1.67,True
+2911293,Eimsbuettel,DE,6944296,St. Pauli,DE,1.67,True
+293822,Qiryat Yam,IL,293831,Qiryat Motzkin,IL,1.67,True
+3178004,Corsico,IT,6534226,Buccinasco,IT,1.67,True
+3170116,Portici,IT,3168309,San Giorgio a Cremano,IT,1.68,True
+5781765,South Jordan Heights,US,5781770,South Jordan,US,1.68,True
+1262131,Naihati,IN,1269910,Hugli,IN,1.68,True
+3002650,Le Plessis-Robinson,FR,3017924,Fontenay-aux-Roses,FR,1.68,True
+5356451,Hercules,US,5383187,Pinole,US,1.68,True
+2998975,Levallois-Perret,FR,3024597,Clichy,FR,1.68,True
+3436728,Villa Elisa,PY,3437665,Nemby,PY,1.68,True
+3019952,Eragny,FR,3023924,Conflans-Sainte-Honorine,FR,1.69,True
+2670879,Sundbyberg,SE,2675397,Solna,SE,1.69,True
+2650815,Dukinfield,GB,2656915,Ashton-under-Lyne,GB,1.69,True
+1167528,Quetta,PK,1172993,Kot Malik,PK,1.69,True
+2972893,Thiais,FR,3025055,Choisy-le-Roi,FR,1.7,True
+5101938,North Plainfield,US,5102720,Plainfield,US,1.7,True
+2986140,Pontoise,FR,2977800,Saint-Ouen-lAumone,FR,1.71,True
+6615443,Montecanal,ES,6615444,"Oliver-Valdefierro, Oliver, Valdefierro",ES,1.71,True
+2974385,Soisy-sous-Montmorency,FR,3020601,Eaubonne,FR,1.71,True
+256075,Palaio Faliro,GR,261614,Alimos,GR,1.71,True
+751324,Bagcilar,TR,747340,Esenler,TR,1.71,True
+587261,Amirdzhan,AZ,824003,Bakixanov,AZ,1.71,True
+2975525,Savigny-sur-Orge,FR,2991719,Morsang-sur-Orge,FR,1.71,True
+5096798,Colonia,US,5099738,Iselin,US,1.72,True
+4776222,Norfolk,US,4779999,Portsmouth,US,1.72,True
+3164153,Villaricca,IT,3172472,Mugnano di Napoli,IT,1.72,True
+2653265,Chelsea,GB,6690602,Battersea,GB,1.72,True
+3012313,Joinville-le-Pont,FR,3027105,Champigny-sur-Marne,FR,1.72,True
+5038108,Moorhead,US,5059163,Fargo,US,1.73,True
+2633406,Yate,GB,2653137,Chipping Sodbury,GB,1.73,True
+2968705,Villejuif,FR,3029276,Cachan,FR,1.73,True
+5128886,North Babylon,US,5143866,West Islip,US,1.74,True
+2992229,Montmorency,FR,3021516,Deuil-la-Barre,FR,1.74,True
+1253367,Vasco Da Gama,IN,1263494,Marmagao,IN,1.74,True
+2977824,Saint-Ouen,FR,3024597,Clichy,FR,1.74,True
+2267067,Linda-a-Velha,PT,2271985,Alges,PT,1.74,True
+5200499,McKeesport,US,5218802,West Mifflin,US,1.74,True
+3177664,Cusano Milanino,IT,3181548,Bresso,IT,1.74,True
+5326561,Bay Point,US,5326563,Bay Point,US,1.74,True
+5085374,Derry,US,5085382,Derry Village,US,1.75,True
+2734434,Sao Mamede de Infesta,PT,2743304,Aguas Santas,PT,1.75,True
+3017178,Fresnes,FR,3037423,Antony,FR,1.76,True
+4146429,Aventura,US,4174383,Sunny Isles Beach,US,1.76,True
+3109453,Barakaldo,ES,3109041,Sestao,ES,1.76,True
+1685875,Solano,PH,1729324,Baggabag B,PH,1.76,True
+6295512,Zuerich (Kreis 9) / Albisrieden,CH,6295513,Zuerich (Kreis 9) / Altstetten,CH,1.76,True
+2660306,Zuerich (Kreis 10) / Hoengg,CH,6295513,Zuerich (Kreis 9) / Altstetten,CH,1.76,True
+3533056,Allende,MX,3530517,Coatzacoalcos,MX,1.76,True
+7284843,Budapest II. keruelet,HU,3054643,Budapest,HU,1.76,False
+1633056,Palimanan,ID,1639925,Klangenan,ID,1.77,True
+1277539,Bali,IN,1348753,Chakapara,IN,1.77,True
+3012621,Ivry-sur-Seine,FR,3003737,Le Kremlin-Bicetre,FR,1.77,True
+3109981,Santa Coloma de Gramenet,ES,6943537,Llefia,ES,1.77,True
+2659310,Zuerich (Kreis 11) / Oerlikon,CH,6295550,Zuerich (Kreis 6),CH,1.78,True
+5325011,Ashland,US,5392281,San Lorenzo,US,1.78,True
+3178004,Corsico,IT,6534280,Cesano Boscone,IT,1.78,True
+2992090,Montreuil,FR,2968054,Vincennes,FR,1.78,True
+4459343,Carrboro,US,4460162,Chapel Hill,US,1.78,True
+3120619,LHospitalet de Llobregat,ES,3124569,Cornella de Llobregat,ES,1.78,True
+5356521,Hermosa Beach,US,5386785,Redondo Beach,US,1.78,True
+2511330,San Juan de Alicante,ES,2513465,Muchamiel,ES,1.78,True
+3489297,New Kingston,JM,3490165,Half Way Tree,JM,1.79,True
+294981,Givat Shemuel,IL,295514,Bene Beraq,IL,1.79,True
+2990192,Noisiel,FR,3027014,Champs-sur-Marne,FR,1.79,True
+3178087,Cormano,IT,3177664,Cusano Milanino,IT,1.79,True
+3586833,Cuscatancingo,SV,3586814,Delgado,SV,1.79,True
+2165798,Geelong,AU,2165796,Geelong West,AU,1.79,True
+3022530,Creteil,FR,3031709,Bonneuil-sur-Marne,FR,1.79,True
+1262338,Muvattupula,IN,7279735,Muvattupuzha,IN,1.8,True
+3176560,Frattaminore,IT,3176561,Frattamaggiore,IT,1.8,True
+4346991,Adelphi,US,4360314,Langley Park,US,1.8,True
+2511329,San Juan de Aznalfarache,ES,2510394,Tomares,ES,1.8,True
+2516443,Ingenio,ES,2522325,Aguimes,ES,1.8,True
+2988621,Pantin,FR,3000491,Les Lilas,FR,1.8,True
+1684320,Tagudin,PH,1688017,Santa Maria,PH,1.81,True
+5095611,Bergenfield,US,5101766,New Milford,US,1.81,True
+3002880,Le Petit-Quevilly,FR,3003952,Le Grand-Quevilly,FR,1.81,True
+2734434,Sao Mamede de Infesta,PT,2738347,Leca do Bailio,PT,1.82,True
+6534267,Casavatore,IT,3179806,Casoria,IT,1.82,True
+3490165,Half Way Tree,JM,3489854,Kingston,JM,1.82,True
+2642214,Morecambe,GB,2644972,Lancaster,GB,1.82,True
+2639268,Rochester,GB,2653305,Chatham,GB,1.83,True
+257302,Melissia,GR,6324534,Vrilissia,GR,1.83,True
+1692565,Pulilan,PH,1693239,Plaridel,PH,1.83,True
+5101879,North Bergen,US,5106292,West New York,US,1.83,True
+2468579,Nabeul,TN,2471637,Dar Chabanne,TN,1.83,True
+2744118,Zaandam,NL,2744114,Zaanstad,NL,1.84,True
+3068690,Otrokovice,CZ,3068689,Otrokovice,CZ,1.84,True
+2648657,Gillingham,GB,2653305,Chatham,GB,1.84,True
+2831948,Sindelfingen,DE,2947444,Boblingen,DE,1.85,True
+1275050,Burla,IN,1270059,Hirakud,IN,1.85,True
+3024635,Clermont-Ferrand,FR,3027453,Chamalieres,FR,1.85,True
+262135,Galatsi,GR,256614,Nea Ionia,GR,1.85,True
+5895650,Beaconsfield,CA,5992830,Kirkland,CA,1.85,True
+1253482,Vallabh Vidyanagar,IN,1267862,Karamsad,IN,1.85,True
+2521105,Benetusser,ES,2519690,Catarroja,ES,1.85,True
+255524,Peristeri,GR,256601,Ilion,GR,1.85,True
+1256259,Silvassa,IN,1278768,Amli,IN,1.85,True
+2833641,Seelze,DE,2922586,Garbsen,DE,1.85,True
+2338273,Ikire,NG,2349558,Apomu,NG,1.85,True
+1253219,Vettaikkaranpudur,IN,1278692,Anaimalai,IN,1.85,True
+3022700,Cran-Gevrier,FR,2974655,Seynod,FR,1.85,True
+454432,Vec-Liepaja,LV,457954,Liepaja,LV,1.85,True
+2976179,Sannois,FR,3037044,Argenteuil,FR,1.85,True
+2978621,Saint-Mande,FR,3026637,Charenton-le-Pont,FR,1.86,True
+2992650,Montesson,FR,2998854,Le Vesinet,FR,1.86,True
+2732544,Vila Nova de Gaia,PT,2735943,Porto,PT,1.86,True
+3020839,Drancy,FR,3005269,Le Blanc-Mesnil,FR,1.86,True
+3182765,Arzano,IT,6534267,Casavatore,IT,1.87,True
+2581754,Douane,TN,2468579,Nabeul,TN,1.87,True
+3444924,Vitoria,BR,7732959,Disney,BR,1.88,True
+2841374,Sasel,DE,2852673,Poppenbuettel,DE,1.88,True
+3016292,Gentilly,FR,3029276,Cachan,FR,1.88,True
+2455516,Kayes Ndi,ML,2455518,Kayes,ML,1.88,True
+2975469,Sceaux,FR,3017924,Fontenay-aux-Roses,FR,1.88,True
+2972444,Torcy,FR,2990192,Noisiel,FR,1.88,True
+3621505,San Vicente,CR,3622217,Purral,CR,1.89,True
+99072,Mosul,IQ,99071,Al Mawsil al Jadidah,IQ,1.89,True
+4356165,Glassmanor,US,4364759,Oxon Hill,US,1.89,True
+5327298,Bell,US,5341051,Cudahy,US,1.89,True
+5324862,Artesia,US,5335663,Cerritos,US,1.89,True
+6295498,Zuerich (Kreis 3) / Sihlfeld,CH,6295532,Zuerich (Kreis 3),CH,1.89,True
+2742506,Baguim do Monte,PT,2735083,Rio Tinto,PT,1.89,True
+2968142,Villiers-sur-Marne,FR,3029706,Bry-sur-Marne,FR,1.9,True
+6690870,Becontree,GB,6690871,Dagenham,GB,1.9,True
+7932612,Glen Iris,AU,7932638,Malvern East,AU,1.9,True
+4900373,Lombard,US,4914830,Villa Park,US,1.9,True
+2998854,Le Vesinet,FR,3026033,Chatou,FR,1.9,True
+6141190,Sarnia,CA,5006233,Port Huron,US,1.9,True
+2998324,Lille,FR,3008379,La Madeleine,FR,1.9,False
+2972893,Thiais,FR,2989297,Orly,FR,1.91,True
+3026637,Charenton-le-Pont,FR,3038213,Alfortville,FR,1.91,True
+3668332,Santo Tomas,CO,3673220,Palmar de Varela,CO,1.91,True
+3180541,Cardito,IT,3181258,Caivano,IT,1.91,True
+5108169,Bay Shore,US,5128898,North Bay Shore,US,1.91,True
+1259408,Ponnuru,IN,7302844,Ponnur,IN,1.91,True
+2819465,Unterhaching,DE,2823812,Taufkirchen,DE,1.92,True
+2660104,Kriens,CH,2659873,Littau,CH,1.92,True
+734301,Sykies,GR,734538,Polichni,GR,1.93,True
+2997620,Loos,FR,3013862,Haubourdin,FR,1.93,False
+264194,Agia Paraskevi,GR,6324534,Vrilissia,GR,1.93,True
+2974385,Soisy-sous-Montmorency,FR,2979627,Saint-Gratien,FR,1.93,True
+3024783,Clamart,FR,3026083,Chatillon,FR,1.94,True
+4381478,Clayton,US,4412697,University City,US,1.94,True
+2519068,Quart de Poblet,ES,2513811,Mislata,ES,1.94,True
+2990264,Nogent-sur-Oise,FR,3022610,Creil,FR,1.94,True
+7284825,Budapest IX. keruelet,HU,7284827,Budapest VII. keruelet,HU,1.95,False
+2998305,Limeil-Brevannes,FR,3031898,Boissy-Saint-Leger,FR,1.95,False
+2968054,Vincennes,FR,2978621,Saint-Mande,FR,1.95,True
+4711801,Missouri City,US,4734005,Stafford,US,1.95,True
+4191124,Decatur,US,4212992,North Decatur,US,1.95,True
+5392034,San Gabriel,US,5323060,Alhambra,US,1.95,True
+3017341,Franconville,FR,3019897,Ermont,FR,1.95,True
+2659667,Meyrin,CH,2658154,Vernier,CH,1.95,True
+3019897,Ermont,FR,3020601,Eaubonne,FR,1.95,True
+4168139,Pembroke Pines,US,4164601,Miramar,US,1.95,True
+2978891,Saint-Laurent-du-Var,FR,3029227,Cagnes-sur-Mer,FR,1.96,True
+2992090,Montreuil,FR,3035403,Bagnolet,FR,1.96,True
+2968482,Villepinte,FR,2974681,Sevran,FR,1.96,True
+3992619,Piedras Negras,MX,5520677,Eagle Pass,US,1.96,False
+3172472,Mugnano di Napoli,IT,3174021,Marano di Napoli,IT,1.96,True
+3621849,San Jose,CR,3624174,Colima,CR,1.96,True
+2271473,Arrentela,PT,2271680,Amora,PT,1.97,True
+4161625,Lauderhill,US,4168782,Plantation,US,1.97,True
+2985034,Puteaux,FR,3023141,Courbevoie,FR,1.97,True
+2983026,Romainville,FR,3032179,Bobigny,FR,1.97,True
+2618425,Copenhagen,DK,2621942,Frederiksberg,DK,1.97,True
+1863426,Haebaru,JP,1863495,Gushikawa,JP,1.97,True
+347591,Talkha,EG,360761,Al Mansurah,EG,1.97,True
+2658656,Zuerich (Kreis 11) / Seebach,CH,6295533,Zuerich (Kreis 11),CH,1.97,True
+3621819,San Juan,CR,3624509,Calle Blancos,CR,1.97,True
+2654710,Brighton,GB,2646504,Hove,GB,1.97,True
+5097357,Dumont,US,5101766,New Milford,US,1.98,True
+4848489,Bettendorf,US,4902476,Moline,US,1.98,True
+4317639,Bossier City,US,4341513,Shreveport,US,1.98,True
+5327455,Belmont,US,5391760,San Carlos,US,1.98,True
+5349803,Foothill Farms,US,5377640,North Highlands,US,1.98,True
+2990616,Neuilly-Plaisance,FR,3017910,Fontenay-sous-Bois,FR,1.98,False
+3583102,Sonsonate,SV,3583098,Sonzacate,SV,1.98,True
+7284823,Budapest XII. keruelet,HU,3054643,Budapest,HU,1.99,True
+2975469,Sceaux,FR,3002650,Le Plessis-Robinson,FR,1.99,True
+2990611,Neuilly-sur-Seine,FR,2998975,Levallois-Perret,FR,1.99,True
+5116508,Elmont,US,5129248,North Valley Stream,US,1.99,True
+2468245,Carthage,TN,2473540,Al Marsa,TN,2.0,True

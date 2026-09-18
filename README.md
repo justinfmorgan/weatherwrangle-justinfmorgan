@@ -12,6 +12,9 @@ filters applied to each.
 **[`analysis/COMPARISON.md`](analysis/COMPARISON.md)** — cross-check against an independent blind pass
 (a fresh agent given only the file and the questions), with a plausibility note per question.
 
+**[`analysis/REEXAMINATION.md`](analysis/REEXAMINATION.md)** — follow-up checks: city identity vs lat/lon,
+country-code validity, rain-key conflict, grid-cell ties, Q5 sensitivity, and the day-3 model switch.
+
 ## Method
 
 1. **Format check** — confirmed strict NDJSON (LF-only, one object per line, no array wrapper); all lines parse.
@@ -33,6 +36,8 @@ filters applied to each.
 |---|---|
 | `analysis/ANSWERS.md` | Final answers |
 | `analysis/COMPARISON.md` | Blind-agent cross-check and plausibility notes |
+| `analysis/REEXAMINATION.md` | Lat/lon identity cross-check, rain-key conflict, grid-cell ties, Q5 sensitivity, model switch |
+| `analysis/reexam_summary.png` | Reexamination figure |
 | `analysis/q6_san_francisco.csv` | Q6 tidy table (humidity nulled where the source had the 0 sentinel) |
 | `analysis/q1_city_records.png` … `q6_san_francisco.png` | Per-question plausibility plots |
 | `analysis/q5_literal_vs_filtered.png` | Why the stub day changes the Q5 ranking |
