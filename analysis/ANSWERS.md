@@ -1,12 +1,21 @@
-# daily_14.json — Running Answers (source of truth)
+# daily_14.json — Final Answers (source of truth)
 
-Data: 22,635 NDJSON lines, 368,909 flattened city-day rows. Snapshot 2017-03-14 ~04:30 UTC.
-Known anomalies applied where noted: humidity == 0 is a missing-value artifact — every city has exactly
-3 days of real humidity (days 0-2 for 16-day records, days 1-3 for 17-day records), all else is 0;
-16,960 cities have one "stub" row (all six temp fields identical, last forecast day or day 0) whose
-temp.day runs ~5.9 °C cooler than the city's real days;
-UVI frozen from day_idx 7; Clouds category vanishes after day 3; 468 (name,country) pairs share
-names across distinct city_ids — always key on city_id.
+Data: 22,635 NDJSON lines (strict LF-delimited, one city per line), 368,909 flattened city-day rows.
+Snapshot 2017-03-14 ~04:30 UTC; forecast dates 2017-03-13 → 2017-03-29. Temperatures in the source are Kelvin.
+
+**Data-quality findings applied to the answers** (details: COMPARISON.md, REEXAMINATION.md):
+
+| Finding | Effect on answers |
+|---|---|
+| Each city has exactly 3 short-range days (aligned days 0-2), then a long-range model: humidity becomes a 0 sentinel, `Clouds` labels and night icons vanish, pressure jumps at the boundary | Q6 humidity nulled outside the 3-day window |
+| 16,960 cities (75%) carry one "stub" row at the forecast edge — all six temps identical, ~5.9 °C cooler than the city's real days | Q5 excludes stub rows |
+| UVI frozen from aligned day 6-7 onward | not used by any question |
+| Rain amounts floored at 0.2 mm; below that the `rain` key is dropped but the label stays `light rain` (26,352 rows); 6,158 `Clear` rows carry an amount | not used by Q1-Q6; convention recorded for future rain questions ("rained" = label or key; "amount" = key) |
+| 90% of cities share a byte-identical forecast with ≥1 other city (5,330 distinct forecasts — grid-cell based) | Q5 ties are structural; flagged |
+| 468 (name, country) pairs collide across distinct `city.id`s; lat/lon cross-check shows they are real distinct places (median 673 km apart) | Q1-Q4 keyed on `city.id`, never name |
+| Horizon is 16-17 days, not 14 | Q4 |
+| 243 country codes: 242 ISO-official + XK (Kosovo); no code is geographically implausible | Q2 |
+| Dates are the UTC calendar date of `dt` | Q6 |
 
 ## Q1. How many city records are in the file?
 **22,635.** One JSON object per line, each with a distinct city.id.
@@ -35,7 +44,9 @@ Robust to near-duplicate dedup at 0.5/1/2 km (membership unchanged). GB vs IT (6
 
 ## Q4. Exploded (city, country, date) row count
 **368,909.** 15,886 cities x 16 days + 6,749 cities x 17 days. All rows unique on (city_id, country, date).
-Not 316,890 (22,635 x 14) — the horizon is 16-17 days despite the filename.
+Not 316,890 (22,635 x 14) — the horizon is 16-17 days despite the filename. All rows are kept for this count;
+16,960 of them are stub rows and 301,004 have the humidity 0 sentinel (see header table) — relevant to any
+downstream aggregate, not to the row count itself. Keyed on city name instead of id the count collapses to 358,817 (wrong).
 
 ## Q5. Top 10 hottest cities by mean temp.day (°C)
 
@@ -57,6 +68,8 @@ each city's mean by a city-specific amount, reshuffling ranks 2-10. See q5_liter
 | 10 | Daura | NG | 2345096 | 39.20 |
 
 Ties (Maiduguri/Magumeri, Potiskum/Daura) are exact — same model grid cell — within-tie order is arbitrary.
+Collapsed to one city per grid cell, Yagoua (CM) 39.19 and Bogo (CM) 39.14 would enter at #9-10 in place of
+Magumeri and Daura; the question asks for cities, so the per-city ranking above is final.
 Sensitivity: temp.max gives 9/10 overlap; restricting to the first 4-7 days gives 0-2/10 — the ranking is a
 16-day-mean ranking and the Sahel heat maximum moves during the window (REEXAMINATION.md §3-4).
 
@@ -65,8 +78,11 @@ Magumeri 38.75, Damaturu 38.74, Massakory 38.69, Ayorou 38.68, Potiskum 38.62, D
 Geidam 38.58. Independently reproduced by a blind agent (COMPARISON.md).
 
 ## Q6. San Francisco, CA tidy table
-city_id 5391959 (37.77, -122.42). 16 days. Temps in °C; humidity nulled where source had 0 (missing-value artifact).
-Date convention: UTC calendar date of `dt` (locked in). SF's dt values fall at 18:00-20:00 UTC so UTC date == local date.
+city_id 5391959 (37.77, -122.42) — the only `San Francisco` with country US among 11 "San Francisco*" entries.
+16-day record, no stub row. Temps in °C (K − 273.15), rounded to 1 dp. Humidity is real for days 0-2 only and is
+nulled where the source has the 0 sentinel. Date convention: UTC calendar date of `dt`; every SF `dt` is 20:00 UTC
+(noon PST), so UTC date == local date. One row (2017-03-22) is labelled `light rain` with no rain amount — the
+< 0.2 mm floor case; the label is kept as-is.
 See analysis/q6_san_francisco.csv.
 
 | date | temp_min | temp_max | humidity | weather_description |

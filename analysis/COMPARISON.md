@@ -33,9 +33,9 @@ Evidence (`q5_literal_vs_filtered.png`):
 - Because the bias differs per city, it does not cancel in a ranking: literal ranks 2–10 all shift,
   Niamey (NE) moves from #13 to #6, Bogo (CM) from #9 to #13.
 
-Recommendation: report the **filtered** ranking as the answer to "hottest cities", with the literal
-ranking as a footnote for reproducibility. The filtered version is what the question is trying to
-measure; the literal version reproduces a known artifact. Pending owner sign-off.
+Decision (locked in): the **filtered** ranking is the final answer to "hottest cities", with the literal
+ranking kept as a footnote for reproducibility. The filtered version is what the question is trying to
+measure; the literal version reproduces a known artifact. See ANSWERS.md.
 
 ## Findings the blind agent added
 
