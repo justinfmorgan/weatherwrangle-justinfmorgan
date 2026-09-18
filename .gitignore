@@ -1,0 +1,8 @@
+# Source data: 103 MB, exceeds GitHub's 100 MB per-file hard limit. Obtain separately.
+daily_14.json
+
+# Python / editor
+__pycache__/
+*.pyc
+.venv/
+.DS_Store

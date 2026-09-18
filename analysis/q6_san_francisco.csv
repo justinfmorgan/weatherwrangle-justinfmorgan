@@ -1,0 +1,17 @@
+date,temp_min,temp_max,humidity,weather_description
+2017-03-13,9.8,19.0,67,sky is clear
+2017-03-14,7.5,25.9,55,sky is clear
+2017-03-15,8.6,22.8,56,sky is clear
+2017-03-16,10.2,18.8,,light rain
+2017-03-17,6.5,18.6,,light rain
+2017-03-18,9.2,16.8,,light rain
+2017-03-19,10.5,18.1,,light rain
+2017-03-20,6.8,18.4,,light rain
+2017-03-21,4.6,16.7,,sky is clear
+2017-03-22,3.9,16.5,,light rain
+2017-03-23,5.2,12.2,,moderate rain
+2017-03-24,8.0,15.1,,moderate rain
+2017-03-25,5.5,13.6,,light rain
+2017-03-26,8.3,13.7,,moderate rain
+2017-03-27,5.6,15.8,,sky is clear
+2017-03-28,4.1,19.3,,sky is clear
