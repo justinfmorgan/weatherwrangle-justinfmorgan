@@ -29,6 +29,10 @@ country-code validity, rain-key conflict, grid-cell ties, Q5 sensitivity, and th
    answer can be judged in context (`answers.py`, `q*.png`).
 5. **Independent verification** — blind agent + a separate temperature-histogram pass
    (`viz_temperature_histograms.py`). All six answers matched.
+6. **Reexamination** — lat/lon identity cross-check, rain-key conflict, grid-cell ties, Q5 sensitivity,
+   model-switch characterisation (`REEXAMINATION.md`).
+
+The full session transcript is in [`transcript/`](transcript/).
 
 ## Files
 
@@ -41,11 +45,12 @@ country-code validity, rain-key conflict, grid-cell ties, Q5 sensitivity, and th
 | `analysis/q6_san_francisco.csv` | Q6 tidy table (humidity nulled where the source had the 0 sentinel) |
 | `analysis/q1_city_records.png` … `q6_san_francisco.png` | Per-question plausibility plots |
 | `analysis/q5_literal_vs_filtered.png` | Why the stub day changes the Q5 ranking |
-| `analysis/viz_horizon_artifacts.png` | Regime change at forecast day 4 (humidity, stubs, UVI, weather mix) |
+| `analysis/viz_horizon_artifacts.png` | Regime change after the 3 short-range days (humidity, stubs, UVI, weather mix) |
 | `analysis/viz_distributions.png` | Field distributions |
 | `analysis/viz_temperature_histograms.png` | Six-panel temperature histogram set |
 | `analysis/viz_city_map.png` | Coordinate sanity check |
 | `analysis/*.py` | Reproducible scripts |
+| `transcript/` | Full Claude Code session transcript (main session + both subagents), with private config redacted |
 
 ## Reproduce
 
